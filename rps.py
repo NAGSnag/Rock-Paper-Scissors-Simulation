@@ -21,15 +21,15 @@ rw = 950
 rh = 600
 pygame.font.init()
 playloop=True
-rock=pygame.image.load('img/rock.png')
+rock=pygame.image.load('./img/rock.png')
 rock=pygame.transform.rotate(pygame.transform.scale(rock,(particle_width,particle_helght)),(90))
 rockrect=rock.get_rect()
 
-paper=pygame.image.load('img/paper.png')
+paper=pygame.image.load('./img/paper.png')
 paper=pygame.transform.rotate(pygame.transform.scale(paper,(particle_width,particle_helght)),(90))
 paperrect=paper.get_rect()
 
-scissor=pygame.image.load('img/scissor.png')
+scissor=pygame.image.load('./img/scissor.png')
 scissor=pygame.transform.rotate(pygame.transform.scale(scissor,(particle_width,particle_helght)),(90))
 scissorrect=scissor.get_rect()
 
