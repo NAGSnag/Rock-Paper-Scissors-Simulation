@@ -1,4 +1,5 @@
 # Rock-Paper-Scissors Simulation
-Designed and developed a real-time simulation game using Python and Pygame library, providing a unique gaming experience.
-The game allows players to control and interact with particles representing rock, paper, and scissors. Implemented player input controls, including loading and removing particles with the arrow keys, enhancing user engagement. 
-Utilized collision detection to create interactive and competitive gameplay. Achieved efficient game performance by optimizing the particle movement and collision handling.
+Designed and developed a real-time simulation game using Python and Pygame library.
+This is the simulation which allows the players to select there object ( Rock-Paper-Scissors ) and start the stimulation,
+Utilized collision detection to create competitive gameplay.The result it gives each time is different, and its not fixed or predefined. 
+steps:*once u start the program use arrow keys to render the objects, make sure u load paricles less than 300 for smooth experience *press the spacbar to start the simulation
